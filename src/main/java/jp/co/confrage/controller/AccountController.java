@@ -27,14 +27,5 @@ public class AccountController {
 
   public void select() {
     List<AccountEntity> ret = accountRepository.findCustom();
-
-    //    AccountEntity accountEntity = new AccountEntity();
-    //    accountEntity.setAaa(new AccountEntity.Pk("3", "5"));
-    //    accountEntity.setBranchNumber(222);
-    //    accountEntity.setDepositAmount(200);
-    //    List<AccountEntity> list = new ArrayList<>();
-    //    accountRepository.save(accountEntity);
-    //
-    //    accountRepository.saveAll(list);
   }
 }
